@@ -1,0 +1,18 @@
+{
+    "name": "flogti/spanish-cities",
+    "description": "Add all spanish autonomous community, provinces and towns easily in Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flogti",
+            "email": "josegm1999@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Flogti\\SpanishCities\\": "src/"
+        }
+    }
+}
