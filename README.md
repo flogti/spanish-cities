@@ -10,3 +10,10 @@ Using [Composer](https://getcomposer.org/) is the easiest way.
 ```bash
 composer require flogti/spanish-cities
 ```
+
+## Usage
+
+Just type a command and create and seed tables
+
+```bash
+php artisan spanish-cities:install
