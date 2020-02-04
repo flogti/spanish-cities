@@ -14,5 +14,12 @@
         "psr-4": {
             "Flogti\\SpanishCities\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flogti\\SpanishCities\\SpanishCitiesServiceProvider"
+            ]
+        }
     }
 }
