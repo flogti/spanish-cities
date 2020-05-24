@@ -18,6 +18,6 @@ class Community extends Model
 
     public function towns()
     {
-        return $this->hasManyThrough('Flogti\SpanishCities\Models\Town', Flogti\SpanishCities\Models\Province);
+        return $this->hasManyThrough('Flogti\SpanishCities\Models\Town', 'Flogti\SpanishCities\Models\Province');
     }
 }
